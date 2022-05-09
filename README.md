@@ -29,3 +29,25 @@ Node.js is an open-source, cross-platform, back-end JavaScript runtime environme
 * The browser makes a GET request through HTTP and the server processes that GET request and send the response accordingly.
 
 ![image](https://user-images.githubusercontent.com/11299574/167445807-229c1a78-20d2-4495-9352-5aeace0bc5d3.png)
+
+
+ ### Step 1️⃣: Install Node.js
+
+ Link - https://nodejs.org/en/download/
+
+ ### Step 2️⃣: Create a project folder
+
+Create a project folder for this tutorial. I'm naming it "building server" and creating a server.js file in it.
+
+### Step 3️⃣: Initialize NPM (Node Package Manager)
+ 
+```
+npm init
+```
+
+Then it will ask you several questions like the package name, version, description, keywords, and other things. 
+You can leave them all default by pressing enter after every step. 
+You can give a description and the author's name if you want.
+In the end, it'll ask you "Is this OK?" press "y" and then enter.
+This will create a package.json file in your project folder. 
+This JSON file will keep track of all the packages that you'll install in this project.
