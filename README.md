@@ -28,3 +28,4 @@ Node.js is an open-source, cross-platform, back-end JavaScript runtime environme
 
 * The browser makes a GET request through HTTP and the server processes that GET request and send the response accordingly.
 
+![image](https://user-images.githubusercontent.com/11299574/167445807-229c1a78-20d2-4495-9352-5aeace0bc5d3.png)
