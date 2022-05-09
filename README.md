@@ -109,3 +109,10 @@ The first example shows that the program blocks until it reads the file and then
 The second example shows that the program does not wait for file reading and proceeds to print "Program Ended" and at the same time, the program without blocking continues reading the file.
 
 Thus, a blocking program executes very much in sequence. From the programming point of view, it is easier to implement the logic but non-blocking programs do not execute in sequence. In case a program needs to use any data to be processed, it should be kept within the same block to make it sequential execution.
+
+### Event Driven Programming
+
+Node.js is a single threaded application. But it can support concurrency via the concept of event and callback. Every API of Node.js is asynchronous and being single threaded, they use async function calls to maintain the concurrency. 
+
+Node used observer pattern. Node thread keeps an event loop and whenever a task gets completed, it fires the corresponding event which signals the event listern function to execute.
+
