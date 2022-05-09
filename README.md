@@ -116,3 +116,19 @@ Node.js is a single threaded application. But it can support concurrency via the
 
 Node used observer pattern. Node thread keeps an event loop and whenever a task gets completed, it fires the corresponding event which signals the event listern function to execute.
 
+
+```
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+
+//Create an event handler:
+var myEventHandler = function () {
+  console.log('I hear a scream!');
+}
+
+//Assign the event handler to an event:
+eventEmitter.on('scream', myEventHandler);
+
+//Fire the 'scream' event:
+eventEmitter.emit('scream');
+```
